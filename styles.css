@@ -3,6 +3,7 @@ body {
     background:rgb(141, 134, 34);
     margin:0px;
     font-family: "Jolly Lodger", system-ui;
+    margin-bottom: 100px;
 }
 
 
@@ -50,8 +51,21 @@ img {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
 }
 
 .categoria-videos img{
     opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+
+opacity:1.0;
+border: 10px solid purple;
+}
+
+.categoria h2{
+
+    color:red
 }
